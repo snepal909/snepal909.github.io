@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyash Nepal - Digital Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#top" class="nav-brand">Suyash Nepal</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#funstuff">Fun Stuff</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="profile.jpg" alt="Suyash Nepal" id="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Suyash Nepal</span></h1>
+                    <p class="hero-subtitle">Welcome to my digital resume and portfolio</p>
+                    <div class="hero-buttons">
+                        <a href="#resume" class="btn btn-primary">View Resume</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">
+                        I'm a passionate professional with a love for building and creating technology, 
+                        especially when it comes with a challenge or the opportunity to learn something new.
+                        I love keeping up to date with the technology industry through various tech blogs, podcasts, 
+                        and newsletters. Currently exploring Deep Learning, Generative AI, AI Agents, and Large Language Models.
+                    </p>
+                    <p class="lead">
+                        When I am not doing anything tech related, I enjoy playing soccer, going to the gym, traveling, and hanging out with my dog.
+                        He is a four year old Shiba Inu named Pakku that always finds a way to keep me busy or active! In my spare time I am also very
+                        into photography and cooking. I view photogaphy as a form of still image art, especially since I can't draw or paint.
+                        I am a huge Arsenal fan (COYG!) and love to watch the Premier League and the Champions League. I also am
+                        a part of the @OkraTalks podcast on YouTube and TikTok where we talk about the latest news in the Football (Soccer) world.
+                        Currently not playing soccer as I am recovering from a knee injury, but I am coaching some of my friends in the mean time!
+                    </p>
+                    <p class="lead">
+                        <!-- You can add more personal details here later -->
+                        Experience in the retail space at Walmart Global Tech. 
+                        Currently at Dedrone/Axon working on a cool thing in the public defense industry!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <!-- Experience -->
+                <div class="resume-section">
+                    <h3 class="resume-section-title">Experience</h3>
+                    <div class="timeline">
+                        <!-- Experience items will be added from your resume PDF -->
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Software Engineer II</h4>
+                                <p class="timeline-company">Dedrone by Axon (formerly TASER INTL)</p>
+                                <p class="timeline-date">August 2025 - Present</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Software Engineer II</h4>
+                                <p class="timeline-company">Walmart Global Tech</p>
+                                <p class="timeline-date">December 2021 - August 2025</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Software Engineer</h4>
+                                <p class="timeline-company">Infosys</p>
+                                <p class="timeline-date">September 2021 - December 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="resume-section">
+                    <h3 class="resume-section-title">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>B.S. in Computer Science</h4>
+                                <p class="timeline-company">University of Maryland, College Park</p>
+                                <p class="timeline-date">Fall 2018 - Spring 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Download Resume Button -->
+                <div class="resume-download">
+                    <a href="#contact" class="btn btn-primary">Contact Me Directly for Official Resume!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project cards will go here -->
+                <div class="project-card">
+                    <h3>FIFA ML Project</h3>
+                    <p>
+                        Created linear regression model to predict where real life teams from Europe's top 5 leagues would finish 
+                        based on the ratings of the players from the FIFA 19 video game.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/snepal909/FIFA-ML-Project" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Deepfake Generation</h3>
+                    <p>
+                        Created deepfake generation model and trained on datasets using GANs. Created a deepfake of talkshow host 
+                        John Oliver's face swapped onto another talkshow host's face/body: Jimmy Fallon.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/snepal909/deepfake-generation" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Soccer Transfer Visualizer</h3>
+                    <p>
+                        Created a simple JavaScript data visualization tool to show graphs of soccer player transfers in the 2018/2019 
+                        season. Mainly for top 5 european leagues, and comparing the fees of players and money that was spent.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/snepal909/18-19-Transfer-Visualization-Tool" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <!-- Languages -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Languages</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Java</div>
+                        <div class="skill-tag">Python (3/2)</div>
+                        <div class="skill-tag">R</div>
+                        <div class="skill-tag">Ruby</div>
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">TypeScript</div>
+                        <div class="skill-tag">Swift</div>
+                        <div class="skill-tag">C#</div>
+                        <div class="skill-tag">Solidity</div>
+                        <div class="skill-tag">C</div>
+                    </div>
+                </div>
+
+                <!-- Full Stack -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Full Stack</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Spring Boot</div>
+                        <div class="skill-tag">GraphQL</div>
+                        <div class="skill-tag">REST API</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">React.js</div>
+                        <div class="skill-tag">WebFlux</div>
+                        <div class="skill-tag">WebClient</div>
+                        <div class="skill-tag">DataLoader</div>
+                        <div class="skill-tag">Resilience4j</div>
+                        <div class="skill-tag">Kafka</div>
+                        <div class="skill-tag">Tomcat</div>
+                        <div class="skill-tag">Flask</div>
+                        <div class="skill-tag">Django</div>
+                        <div class="skill-tag">Angular.js</div>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Database</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">SQL</div>
+                        <div class="skill-tag">NoSQL</div>
+                        <div class="skill-tag">Relational Databases</div>
+                        <div class="skill-tag">PostgreSQL</div>
+                        <div class="skill-tag">Cassandra</div>
+                    </div>
+                </div>
+
+                <!-- Telemetry Tools -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Telemetry Tools</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Splunk</div>
+                        <div class="skill-tag">Grafana</div>
+                        <div class="skill-tag">Prometheus</div>
+                    </div>
+                </div>
+
+                <!-- Testing Libraries -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Testing Libraries</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">WireMock</div>
+                        <div class="skill-tag">Mockito</div>
+                        <div class="skill-tag">JUnit</div>
+                        <div class="skill-tag">Jest</div>
+                        <div class="skill-tag">Cucumber</div>
+                    </div>
+                </div>
+
+                <!-- Development Tools -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Development Tools</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Maven</div>
+                        <div class="skill-tag">Git</div>
+                        <div class="skill-tag">GitHub</div>
+                        <div class="skill-tag">GitLab</div>
+                        <div class="skill-tag">BitBucket</div>
+                        <div class="skill-tag">Jenkins</div>
+                        <div class="skill-tag">Walmart Cloud Native Platform (Azure)</div>
+                        <div class="skill-tag">Kubernetes</div>
+                        <div class="skill-tag">Docker</div>
+                        <div class="skill-tag">Concord</div>
+                        <div class="skill-tag">Prometheus (PromQL)</div>
+                        <div class="skill-tag">Jira</div>
+                        <div class="skill-tag">Confluence</div>
+                        <div class="skill-tag">ServiceNow</div>
+                    </div>
+                </div>
+
+                <!-- DS/ML/AI -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">DS/ML/AI</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Pandas</div>
+                        <div class="skill-tag">Jupyter NB</div>
+                        <div class="skill-tag">NumPy</div>
+                        <div class="skill-tag">SciPy</div>
+                        <div class="skill-tag">PyTorch</div>
+                        <div class="skill-tag">SciKit-Learn</div>
+                        <div class="skill-tag">Plotting</div>
+                        <div class="skill-tag">Tidyverse</div>
+                        <div class="skill-tag">Tableau</div>
+                        <div class="skill-tag">Prompt Engineering</div>
+                        <div class="skill-tag">Gen/Generative AI</div>
+                    </div>
+                </div>
+
+                <!-- Text and Data Formats/Languages -->
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Text and Data Formats/Languages</h4>
+                    <div class="skills-grid">
+                        <div class="skill-tag">JSON</div>
+                        <div class="skill-tag">YAML</div>
+                        <div class="skill-tag">HTML</div>
+                        <div class="skill-tag">XML</div>
+                        <div class="skill-tag">CSS</div>
+                        <div class="skill-tag">MD</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Stuff Section -->
+    <section id="funstuff" class="section">
+        <div class="container">
+            <h2 class="section-title">Fun Stuff</h2>
+            <div class="funstuff-grid">
+                <div class="funstuff-item" data-image="Pakku.JPG" data-caption="Me with my four-year-old Shiba Inu, Pakku!">
+                    <div class="funstuff-image-wrapper">
+                        <img src="Pakku.JPG" alt="Pakku" class="funstuff-image">
+                    </div>
+                    <p class="funstuff-caption">Me with my four-year-old Shiba Inu, Pakku!</p>
+                </div>
+                <div class="funstuff-item" data-image="Arsenal Game.jpg" data-caption="Watching Arsenal play - COYG! (Come On You Gunners!)">
+                    <div class="funstuff-image-wrapper">
+                        <img src="Arsenal Game.jpg" alt="Arsenal Game" class="funstuff-image">
+                    </div>
+                    <p class="funstuff-caption">Watching Arsenal play - COYG! (Come On You Gunners!)</p>
+                </div>
+                <div class="funstuff-item" data-image="Photo Portfolio 1.jpg" data-caption="Some pictures that I have taken when admiring the world and life's beautiful moments!">
+                    <div class="funstuff-image-wrapper">
+                        <img src="Photo Portfolio 1.jpg" alt="Photo Portfolio 1" class="funstuff-image">
+                    </div>
+                    <p class="funstuff-caption">Some pictures that I have taken when admiring the world and life's beautiful moments!</p>
+                </div>
+                <div class="funstuff-item" data-image="Photo Portfolio 2.jpg" data-caption="Some pictures that I have taken when admiring the world and life's beautiful moments!">
+                    <div class="funstuff-image-wrapper">
+                        <img src="Photo Portfolio 2.jpg" alt="Photo Portfolio 2" class="funstuff-image">
+                    </div>
+                    <p class="funstuff-caption">Some pictures that I have taken when admiring the world and life's beautiful moments!</p>
+                </div>
+                <div class="funstuff-item" data-image="Photo Portfolio 3.jpg" data-caption="Some pictures that I have taken when admiring the world and life's beautiful moments!">
+                    <div class="funstuff-image-wrapper">
+                        <img src="Photo Portfolio 3.jpg" alt="Photo Portfolio 3" class="funstuff-image">
+                    </div>
+                    <p class="funstuff-caption">Some pictures that I have taken when admiring the world and life's beautiful moments!</p>
+                </div>
+                <div class="funstuff-item" data-image="Photo Portfolio 4.jpg" data-caption="Some pictures that I have taken when admiring the world and life's beautiful moments!">
+                    <div class="funstuff-image-wrapper">
+                        <img src="Photo Portfolio 4.jpg" alt="Photo Portfolio 4" class="funstuff-image">
+                    </div>
+                    <p class="funstuff-caption">Some pictures that I have taken when admiring the world and life's beautiful moments!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <div class="image-modal-content">
+            <span class="image-modal-close">&times;</span>
+            <img id="modalImage" src="" alt="" class="modal-image">
+            <p id="modalCaption" class="modal-caption"></p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm always open to discussing new opportunities, collaborations, or just having a chat. 
+                    Feel free to reach out!
+                </p>
+                <div class="contact-links">
+                    <a id="email-link" href="#" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email
+                    </a>
+                    <script>
+                        document.getElementById('email-link').addEventListener('click', function() {
+                          var user = 'snepal909';
+                          var domain = 'gmail.com';
+                          var email = user + '@' + domain;
+                          window.location.href = 'mailto:' + email;
+                        });
+                    </script>
+                    <a href="https://www.linkedin.com/in/suyash-nepal/" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/snepal909" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Suyash Nepal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
