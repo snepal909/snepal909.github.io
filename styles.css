@@ -74,6 +74,11 @@ body {
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
+    padding: 0.5rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-menu a:hover {
@@ -102,6 +107,11 @@ body {
     border: none;
     cursor: pointer;
     gap: 4px;
+    padding: 0.5rem;
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-toggle span {
@@ -173,6 +183,10 @@ body {
     font-weight: 600;
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-primary {
@@ -516,6 +530,36 @@ body {
     padding: 2rem;
 }
 
+@media (max-width: 768px) {
+    .image-modal.active {
+        padding: 1rem;
+    }
+    
+    .image-modal-content {
+        max-width: 95%;
+        max-height: 95vh;
+    }
+    
+    .image-modal-close {
+        top: -35px;
+        right: -5px;
+        font-size: 2rem;
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.2);
+    }
+    
+    .modal-image {
+        max-height: 75vh;
+    }
+    
+    .modal-caption {
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+}
+
 .image-modal-content {
     position: relative;
     max-width: 90%;
@@ -660,7 +704,13 @@ body.modal-open {
         text-align: center;
         transition: 0.3s;
         box-shadow: var(--shadow);
-        padding: 2rem 0;
+        padding: 1rem 0;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+    
+    .nav-menu li {
+        width: 100%;
     }
 
     .nav-menu.active {
@@ -707,6 +757,16 @@ body.modal-open {
 
     .container {
         padding: 0 1rem;
+    }
+    
+    .about-text p {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .timeline-description {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .contact-links {
@@ -815,6 +875,36 @@ body.modal-open {
     .project-link-btn {
         width: 100%;
         justify-content: center;
+    }
+    
+    .image-modal.active {
+        padding: 0.5rem;
+    }
+    
+    .image-modal-close {
+        top: 10px;
+        right: 10px;
+        font-size: 1.75rem;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .modal-image {
+        max-height: 70vh;
+    }
+    
+    .modal-caption {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+    
+    .funstuff-caption {
+        font-size: 0.875rem;
+        padding: 1rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
     }
 }
 
