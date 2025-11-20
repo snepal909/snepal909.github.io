@@ -8,7 +8,6 @@
 :root {
     --primary-color: #2563eb;
     --primary-dark: #1e40af;
-    --secondary-color: #64748b;
     --text-color: #1e293b;
     --text-light: #64748b;
     --bg-color: #ffffff;
@@ -321,10 +320,6 @@ body {
     margin-bottom: 0.75rem;
 }
 
-.timeline-description {
-    color: var(--text-color);
-    line-height: 1.7;
-}
 
 /* Skills */
 .skills-container {
@@ -763,11 +758,6 @@ body.modal-open {
         word-wrap: break-word;
         overflow-wrap: break-word;
     }
-    
-    .timeline-description {
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
 
     .contact-links {
         flex-direction: column;
@@ -914,10 +904,6 @@ html {
 }
 
 /* Image fallback - handled by JavaScript */
-.hero-image img {
-    min-height: 400px;
-}
-
 .profile-placeholder {
     width: 100%;
     max-width: 400px;

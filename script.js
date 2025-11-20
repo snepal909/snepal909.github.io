@@ -165,7 +165,7 @@ if (profileImg) {
         placeholder.className = 'profile-placeholder';
         placeholder.innerHTML = `
             <div style="width: 100%; max-width: 400px; aspect-ratio: 1; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1rem; margin: 0 auto;">
-                <p style="padding: 2rem; text-align: center;">Add your profile image as profile.jpg</p>
+                <p style="padding: 2rem; text-align: center;">Add your profile image as images/profile.jpg</p>
             </div>
         `;
         this.parentElement.appendChild(placeholder);
@@ -216,5 +216,17 @@ document.addEventListener('keydown', function(e) {
 function closeModal() {
     imageModal.classList.remove('active');
     document.body.classList.remove('modal-open');
+}
+
+// Email link handler
+const emailLink = document.getElementById('email-link');
+if (emailLink) {
+    emailLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        const user = 'snepal909';
+        const domain = 'gmail.com';
+        const email = user + '@' + domain;
+        window.location.href = 'mailto:' + email;
+    });
 }
 
